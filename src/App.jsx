@@ -5,7 +5,6 @@ import { Cart } from './pages/cart/Cart'
 import { Footer } from './components/Footer.jsx'
 import { MyProvider } from "./context/Mycontext"
 
-
 function App() {
  
   return (
