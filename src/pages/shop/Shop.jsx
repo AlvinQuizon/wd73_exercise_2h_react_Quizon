@@ -8,7 +8,7 @@ export const Shop = () => {
   const [ products, setProducts ] = useState ([ ])
 
   // global state
-  const { cartItemCounter } = useContext(MyContext)
+  // const { cartItemCounter } = useContext(MyContext)
  
   useEffect (() => {
     document.title = 'Shop'
