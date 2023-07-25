@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   height: 80px;
-  background: aqua;
+  background: #CC3FB2;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -26,5 +26,9 @@
 }
 
 .footer {
-  background: aqua;
+  background: #CC3FB2;
+}
+
+.cartItems:hover {
+  color: white;
 }

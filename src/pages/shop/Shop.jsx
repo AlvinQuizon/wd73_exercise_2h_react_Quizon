@@ -1,11 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Product } from './Product.jsx'
 import './Shop.css'
+import { MyContext } from '../../context/Mycontext.jsx'
 
 export const Shop = () => {
+  // local state
   const [ products, setProducts ] = useState ([ ])
-  const [ cartItemCounter, setCartItemCounter ] = useState (0)
 
+  // global state
+  const { cartItemCounter } = useContext(MyContext)
+ 
   useEffect (() => {
     document.title = 'Shop'
   }, [])
@@ -19,16 +23,12 @@ export const Shop = () => {
   })
   }, [setProducts])
 
-  function addToCart() {
-    setCartItemCounter(cartItemCounter + 1)
-  }
-  
+ 
   return (
     <>
-      <h1 className='text-light'>Cart:<span className='fw-bold'>{cartItemCounter}</span></h1>
       <div className='shop'>
         <div className='shopTitle mb-5'>
-          <h1 className='storeTitle'>AlQUi Tech</h1>
+          <h1 className='storeTitle'>Elysian Emporium</h1>
         </div>
         <div className='products d-flex flex-wrap'> 
           {products.map((product) => (
@@ -37,7 +37,7 @@ export const Shop = () => {
             title={product.title}
             price={product.price}
             image={product.image}
-            addToCart={addToCart} />
+            />
           ))}
         </div>
       </div>

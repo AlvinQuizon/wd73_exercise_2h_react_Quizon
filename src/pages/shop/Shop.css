@@ -1,11 +1,11 @@
 body {
-  background-image: url( https://tse4.mm.bing.net/th?id=OIP.QUMZi3_a1R17a-MBhHjqiQHaEW&pid=Api&P=0&h=180 );
+  background-image: url( https://wallpaperaccess.com/full/2338283.jpg );
 }
 
 .shopTitle {
   margin-top: 50px;
   text-align: center;
-  color: #03FFFB;
+  color: #CC3FB2;
 }
 
 .shopTitle:hover {
@@ -47,7 +47,7 @@ body {
 }
 
 .addToCartBtn {
-  background-color: transparent;
+  background-color: black;
   border: 2px solid black;
   min-width: 100px;
   padding-left: 10px;
@@ -55,10 +55,11 @@ body {
   padding-bottom: 15px;
   border-radius: 15px;
   align-items: center;
+  color: #CC3FB2;
 }
 
 .addToCartBtn:hover {
-  background-color: aqua;
+  background-color: #CC3FB2;
   color: black;
   cursor: pointer;
 }
