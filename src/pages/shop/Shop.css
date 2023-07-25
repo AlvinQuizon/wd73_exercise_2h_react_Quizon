@@ -58,7 +58,7 @@ body {
 }
 
 .addToCartBtn:hover {
-  background-color: black;
-  color: white;
+  background-color: aqua;
+  color: black;
   cursor: pointer;
 }
