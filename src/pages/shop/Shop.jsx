@@ -28,7 +28,7 @@ export const Shop = () => {
     <>
       <div className='shop'>
         <div className='shopTitle mb-5'>
-          <h1 className='storeTitle'>Elysian Emporium</h1>
+          <h1 className='storeTitle'>Elysian's Emporium</h1>
         </div>
         <div className='products d-flex flex-wrap'> 
           {products.map((product) => (
