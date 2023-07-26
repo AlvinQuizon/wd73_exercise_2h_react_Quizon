@@ -1,9 +1,9 @@
 import React from 'react'
 
 export const Cart = () => {
-  useEffect (() => {
-    document.title = 'Cart'
-  }, [])
+  // useEffect (() => {
+  //   document.title = 'Cart'
+  // }, [])
   return (
     <div>
       <h1>Cart</h1>
