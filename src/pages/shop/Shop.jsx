@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Product } from './Product.jsx'
 import './Shop.css'
-import { MyContext } from '../../context/Mycontext.jsx'
+import { MyContext } from '../../context/MyContext.jsx'
 
 export const Shop = () => {
   // local state

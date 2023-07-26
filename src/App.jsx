@@ -3,7 +3,7 @@ import { Navbar } from "./components/Navbar"
 import { Shop } from "./pages/shop/Shop"
 import { Cart } from './pages/cart/Cart'
 import { Footer } from './components/Footer.jsx'
-import { MyProvider } from "./context/Mycontext"
+import { MyProvider } from "./context/MyContext"
 
 function App() {
  
@@ -14,7 +14,8 @@ function App() {
           <Navbar />
           
           <Routes>
-            <Route path="/" element={
+            <Route path="/" element={<Cart />} />
+            <Route path="/shop" element={
                 <Shop />
             } />
             <Route path="/cart" element={<Cart />} />
