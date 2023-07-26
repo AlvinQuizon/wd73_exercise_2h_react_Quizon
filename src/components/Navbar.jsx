@@ -2,7 +2,7 @@ import { ShoppingCart } from 'phosphor-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import { MyContext } from '../context/Mycontext'
+import { MyContext } from '../context/MyContext'
 import { useContext } from 'react'
 
 export const Navbar = () => {
